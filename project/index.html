@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+       <!--- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>
+            INDIA FASHION
+        </title>
+        <link rel="icon" href="images/bag.png">
+        <link rel="stylesheet" href="index.css"/>
+        <script src="https://kit.fontawesome.com/6285854b91.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- header-->
+        <div id="h">
+        <div class="header" id="head" >
+
+           <div class="container header_container">
+               <div class="logo">
+                <h1><i class="fa fa-shopping-bag" aria-hidden="true"></i></h1><h2>INDIA <span>FASHION</span></h2>
+               </div>
+               <div class="nav">
+                   <div class="nav_items"><a href="#h">HOME</a></div>
+                   <div class="nav_items"><a href="#p">PRODUCTS</a></div>
+                   <div class="nav_items"><a href="#a">ABOUT</a></div>
+                   <div class="nav_items"><a href="#f">CONTACT US</a></div>
+               </div>
+           </div> 
+        </div>
+       <div class="cart" id="cart">
+           
+            <div class="cart_container">
+                <button onclick="showpopup()"><i class="fa fa-user" aria-hidden="true"></i> LOGIN/SIGNUP</button> 
+            </div>
+        </div>
+        <form onsubmit="login(event)">
+        <div class="popup">
+            <div class="data">
+                <button onclick="closepopup()" class="close">X</button>
+              <h1>LOGIN</h1> 
+              <br>
+              <input type="text"  required class="login" placeholder= " username">
+              <br>
+              <input type="password" required class="login" placeholder= " password"><button onmousedown="showpassword()" onmouseup="hidepassword()" class="password">SHOW PASSWORD</button>
+              <button class="btn_login">LOG IN</button>
+              <br>
+            <br>
+            
+              <a class="signup" href="signup.html">DON'T HAVE AN ACCOUNT? SIGN UP.</a>
+              
+            </div>
+         </div>
+         </form>
+        </div>
+        <!--end for header -->
+
+        <!--banner-->
+
+        <div class="banner">
+            <div class="overlay">
+                <div class="banner_text">
+                    <h1>SHOP WITH US</h1>
+                    <p class="para1">"GRAB IT NOW TOMMOROW IT MIGHT BE GONE FOREVER!"</p>
+                    <p class="para">GET 30%-70% OFFER FOR ALL PRODUCTS</p><br><p>-----"UPTO 26<sup>th</sup> AUGUST"-----</p>
+                    <button class="shopnow"><a href="#p">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+       <!--banner end-->
+      
+       <!--products-->
+       <div id="p">
+       <div class="products">
+           <h1>PRODUCTS</h1>
+              <div class="container product_container">
+                <div class="product">
+                  <div class="prod_img1">
+
+                  </div>
+                  <div class="prod_cont">
+                     <button  class="prod_btn"><a  href="shirt.html">SHOP NOW</a></button>
+                  </div>
+              </div>
+              <div class="product">
+                <div class="prod_img2">
+
+                </div>
+                <div class="prod_cont">
+                   <button class="prod_btn"><a  href="shoe.html">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="prod_img3">
+
+                </div>
+                <div class="prod_cont">
+                   <button class="prod_btn"><a  href="watch.html">SHOP NOW</a></button>
+                </div>  
+            </div>
+           </div>
+       </div>
+    </div>
+       <!--product end-->
+
+       <!--about-->
+    <div id="a">
+       <div class="about">
+           <h1>ABOUT</h1>
+        <div class="container about_container">
+            <p><span>LOREM</span> ipsum dolor sit, amet consectetur adipisicing elit. Est facilis qui at ullam ab officiis optio, quos ad, error delectus non nemo mollitia ipsa fugit distinctio enim? Voluptatibus, veniam ea.
+           ipsum dolor sit, amet consectetur adipisicing elit. Est facilis qui at ullam ab officiis optio, quos ad, error delectus non nemo mollitia ipsa fugit distinctio enim? Voluptatibus, veniam ea.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero placeat, animi maxime dolores, nam porro ut reprehenderit doloremque laudantium numquam sint quaerat, eaque nemo soluta corrupti rem ipsum dolorum quae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quisquam saepe quibusdam, dolorem dolores perferendis voluptatibus nemo nesciunt sit cumque, reprehenderit harum necessitatibus, animi obcaecati blanditiis magnam ipsa odio autem.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestiae quibusdam facilis inventore, amet nostrum temporibus, laborum ipsum quis, hic rerum aut repellendus commodi quod voluptatem reiciendis consectetur quia beatae!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis earum mollitia minima dolor suscipit necessitatibus! Provident, distinctio fuga est fugiat tempore odit id eum, accusamus modi consectetur laborum nostrum?</p>
+        </div>
+       </div>
+    </div>
+
+        <!--highlight-->
+        <div class="highlight">
+            <div class="container h_container">
+                <div class="h_child">
+                    <div class="h_c_e">
+                    <h1 class="h_title">100%</h1>
+                    <p class="h_des">QUALITY</p>
+                </div>
+            </div>
+                <div class="h_child">
+                    <div class="h_c_e">
+                    <h1 class="h_title">500+</h1>
+                    <p class="h_des">HAPPY CLIENTS</p>
+                </div>
+            </div>
+                <div class="h_child">
+                    <div class="h_c_e">
+                    <h1 class="h_title">5+</h1>
+                    <p class="h_des">BRANCHES LAUNCHED</p>
+                </div>
+            </div>
+                <div class="h_child">
+                    <div class="h_c_e">
+                    <h1 class="h_title">66+</h1>
+                    <p class="h_des">COLLECTIONS</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--highlight end-->
+   
+        
+       <!--poster-->
+       <div class="poster">
+        <div class="pos_text">
+            <h1>CRAZY DISCOUNTS:YOUR REASONS TO SHOP TODAY!</h1>
+        </div>
+        <div class="pos_img">
+       <!---<div class="img_text">
+             <button><a href="#p">SHOP NOW</a></button>
+        </div>-->
+        </div>
+    </div>
+
+<!--poster end-->
+
+<div class="portfolio">
+            
+    <h1>OUR EXCLUSIVE BRANDS</h1>
+    <div class="container p_container">
+        <div class="pro pro1">
+            <div class="pro_title">
+                ROLEX
+            </div>
+        </div>
+        <div class="pro pro2">
+            <div class="pro_title">
+                LEVIS
+            </div>
+        </div>
+        <div class="pro pro3">
+            <div class="pro_title">
+                LEE
+            </div>
+        </div>
+        <div class="pro pro4">
+            <div class="pro_title">
+                CALVIN KLEIN
+            </div>
+        </div>
+        <div class="pro pro5">
+            <div class="pro_title">
+                PUMA
+            </div>
+        </div>
+        <div class="pro pro6">
+            <div class="pro_title">
+                H&M
+            </div>
+        </div>
+        <div class="pro pro7">
+            <div class="pro_title">
+                FILA
+            </div>
+        </div>
+        <div class="pro pro8">
+            <div class="pro_title">
+                NIKE
+            </div>
+        </div>
+
+    </div>
+</div>
+</section>
+<!--end of portfolio--> 
+
+
+        <!--footor-->
+            <div id="f">
+            <div class="footor">
+                <div class="container f_container">
+                    <div class="f_child f_child1">
+                        <h1>INDIA FASHION</h1> 
+                    </div>
+                    <div class="f_child f_child2">
+                        <ul>
+                            <li class="f_first">QUICK LINKS</li>
+                            <li><a href="#h">HOME</a></li>
+                            <li><a href="#a">ABOUT</a></li>
+                            <li><a href="#p">PRODUCTS</a></li>
+                            <li><a href="#f">CONTACT US</a></li>
+                        </ul>  
+                    </div>
+                    <div class="f_child f_child3">
+                        <ul>
+                            <li class="f_first">CONTACT US</li>
+                            <li>NO:45334,1ST STREET 
+                                CHENNAI,TAMILNADU,INDIA</li>
+                                <li>785479689</li>
+                                <li>indiafashion2608@gmail.com</li>
+                                
+                        </ul>
+                    </div>
+                
+                    <div class="f_child f_child4">
+                        <div class="container s_c">
+                        <div class="s s1">
+                           
+                        </div>
+                        <div class="s s2">
+                            
+                        </div>
+                        <div class="s s3">
+                            
+                        </div>
+                        <div class="s s4">
+                           
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="sara">
+              -------DISIGNED BY SARAVANA---------------------------------------
+            </div>
+        <!--footor end-->
+        <script src="index.js"></script>
+        <script>
+            window.onscroll=function(){
+              if(window.pageYOffset>600){
+                document.getElementById('head').style.backgroundColor="blue";
+              }
+              else{
+                document.getElementById('head').style.backgroundColor="transparent";
+              }
+            }
+            </script>
+           
+
+    </body>
+</html>

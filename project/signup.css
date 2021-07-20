@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Segoe UI;
+}
+
+/*css for header*/
+
+.header{
+    width: 100%;
+    height: 75px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    
+    
+}
+
+.container{
+    width: 95%;
+    
+   /* background-color: darkblue;*/
+    display: flex;
+}
+.header_container{
+    justify-content: space-between;
+    height: 75px;
+    width: 100%;
+}
+.logo{
+    width: 25%;
+    height: 75px;
+    /*background-color: darkorange;*/
+    display: flex;
+    justify-content: center;
+}
+.logo h1{
+     width:20%;
+     height: 1005px;
+     margin-top: 10px;
+     color:whitesmoke;
+     margin-left: 10px;
+}
+.logo h2{
+    width: 50%;
+    height:75px;
+    color: white;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.logo h2 span{
+    color: yellow;
+}
+.banner{
+    background-image: url('https://images.pexels.com/photos/4072840/pexels-photo-4072840.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.location{
+    width: 55%;
+    height: 550px;
+    background-color:rgba(0, 48, 136, 0.5);
+    margin-top: 87px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border-radius: 20px;
+}
+.location h1{
+    color: white;
+    padding: 10px;
+    
+}
+
+.signup{
+    width: 50%;
+    height: 550px;
+    background-color:rgba(0, 48, 136, 0.5);
+    margin-top: 87px;
+    margin-left: 50px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.signup h1{
+    color: white;
+    padding: 10px;
+}
+.data{
+   width: 95%;
+   height: 400px;
+}
+.login{
+    width: 100%;
+    font-size: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 4px;
+}
+.password{
+        margin-top: 5px;
+        margin-left:380px;
+        padding: 7px;
+        background-color:black;
+        color:white;
+        border: 1px solid white;
+        font-size: 13px;
+        font-weight: 640;
+        transition:0.4s;
+        border-radius: 20px;
+        
+    }
+    .password:hover{
+        background-color:red;
+        color:white;
+        
+    }
+    .btn_login{
+        margin-top: 15px;
+        margin-left: 10px;
+        background-color:red;
+        color:white;
+        font-size: 30px;
+        padding: 5px;
+        width: 95%;
+        transition: 0.3s;
+        border: 1px solid blue;
+        cursor: pointer;
+        font-weight: 650;
+        margin-bottom: 60px;
+    
+    }
+    .btn_login:hover{
+        background-color:white;
+        color:black;
+    }
+    @media screen and (max-width:768px){
+    .overlay_c{
+      display: flex;
+      flex-direction: column;
+    }
+    .banner{
+        height: 1500px;
+    }
+    .overlay{
+        height: 1500px;
+    }
+    .location{
+        width: 95%;
+    }
+    .signup{
+        width: 95%;
+    }
+    .location iframe{
+        width: 70%;
+    }
+    .logo{
+        width: 40%;
+    }
+    .logo h2{
+        margin-left: 20px;
+    }
+    .login{
+        width: 70%;
+        margin-left: 20%;
+    }
+    .btn_login{
+        width: 90%;
+        margin-left: 10%;
+    }
+    .password{
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width:1365px) and (min-width:1100px){
+    .overlay_c{
+        display: flex;
+        flex-direction: column;
+      }
+      .banner{
+          height: 1500px;
+      }
+      .overlay{
+          height: 1500px;
+      }
+      .location{
+          width: 90%;
+      }
+      .signup{
+          width: 90%;
+      }
+}
+@media screen and (max-width:1200px) and (min-width:1000px){
+    .overlay_c{
+        display: flex;
+        flex-direction: column;
+      }
+      .banner{
+          height: 1500px;
+      }
+      .overlay{
+          height: 1500px;
+      }
+      .location{
+          width: 90%;
+      }
+      .signup{
+          width: 90%;
+      }
+}
+@media screen and (max-width:1000px) and (min-width:769px){
+    .overlay_c{
+        display: flex;
+        flex-direction: column;
+      }
+      .banner{
+          height: 1500px;
+      }
+      .overlay{
+          height: 1500px;
+      }
+      .location{
+          width: 90%;
+      }
+      .signup{
+          width: 90%;
+      }
+}
+
